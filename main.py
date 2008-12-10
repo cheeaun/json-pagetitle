@@ -150,7 +150,7 @@ class MainHandler(webapp.RequestHandler):
           <li><a href="/?url=http://www.google.com/">/?url=http://www.google.com/</a>
           <li><a href="/?url=http://www.yahoo.com/&amp;callback=foo">/?url=http://www.yahoo.com/&amp;callback=foo</a>
       </ul>
-      <p>Inspired by <a href="http://json-head.appspot.com/">json-head</a> and <a href="http://json-time.appspot.com/">json-time</a>.
+      <p>Inspired by <a href="http://json-head.appspot.com/">json-head</a> and <a href="http://json-time.appspot.com/">json-time</a>. You may also like <a href="http://json-longurl.appspot.com/">json-longurl</a>. <a href="http://json-pagetitle.googlecode.com/">Google Code</a>.
       """)
 
 def main():
