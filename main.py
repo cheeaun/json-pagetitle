@@ -118,7 +118,7 @@ class MainHandler(webapp.RequestHandler):
               
           obj['title'] = title
           if error: obj['error'] = 'ApplicationError: ' + str(error)
-          json = simplejson.dumps(obj, sort_keys=True, indent=4)
+          json = simplejson.dumps(obj, sort_keys=True, indent=4, ensure_ascii=False)
           # Save json output to Memcache, if there's no error
           if not error:
             logging.debug('Adding json output to memcache')
